@@ -1,6 +1,6 @@
 {
   "name": "capacitor-openstreetmap",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Openstreetmaps on Capacitor.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -74,5 +74,8 @@
     "android": {
       "src": "android"
     }
+  },
+  "dependencies": {
+    "@types/leaflet": "^1.9.0"
   }
 }

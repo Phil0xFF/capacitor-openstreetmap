@@ -6,6 +6,8 @@ const CapacitorOpenstreetmap = registerPlugin<CapacitorOpenstreetmapPlugin>(
   'CapacitorOpenstreetmap',
   {
     web: () => import('./web').then(m => new m.CapacitorOpenstreetmapWeb()),
+    ios: () => import('./web').then(m => new m.CapacitorOpenstreetmapWeb()),
+    android: () => import('./web').then(m => new m.CapacitorOpenstreetmapWeb()),
   },
 );
 
